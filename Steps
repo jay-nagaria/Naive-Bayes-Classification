@@ -1,0 +1,13 @@
+Steps:
+
+Import Data
+o Used Mushroom dataset from the UCI ML Repository
+Split data into training and testing
+o Out of 8124 samples, Used top 4000 instance for training & rest for testing.
+Calculate the probability of the individual features P(A)
+o Calculate the probability of the occurrences of the feature
+Calculate the probability of the features with respect to the output 𝑃(𝐵|𝐴)
+o Calculate the Probability of the occurrence of the feature given occurrence of output
+Calculate the probability of the test sample using Bayes theorem, 𝑃(𝐴|𝐵) = (𝑃(𝐵/A)*𝑃(A))/𝑃(B)
+Based on the probability predict the outcome for the test set.
+Calculate Accuracy by (TP+TN)/(TP+ FP+ FN+TN) 𝑎𝑛𝑑 error 𝑏𝑦 (FP+ FN)/(TP+ FP+ FN+TN)
